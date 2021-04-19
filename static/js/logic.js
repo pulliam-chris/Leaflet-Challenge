@@ -92,9 +92,11 @@ Promise.all(
             div.innerHTML = `<h3>Earthquake Depth (miles)</h3>`;
 
             limits.forEach(function(limit, index) {
-            labels.push("<li style=\"background-color: " + colors[index] + "\">" + limits[index] + "</li>");
-            });
+            labels.push("<li style=\"background-color: " + colors[index] + ";list-style-type: none" + "\" >" + limits[index] + "</li>");
+            //labels.push("<li style=\"background-color: " + colors[index] + "\" list-style-type: none >" + limits[index] + "</li>");
             //list-style-type: none;
+            });
+            
             div.innerHTML += labels.join("");
             return div;
             };
