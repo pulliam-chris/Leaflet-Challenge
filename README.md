@@ -11,5 +11,5 @@ Using Leaflet to visualize USGS Earthquake data
 
 * index.html - Only used to display the map at 100% of height.
 
-![USGS - Earthquake Activity Past 7 Days](images/Leaflet_USGS.jpg)!
+![USGS - Earthquake Activity Past 7 Days](images/Leaflet_USGS.jpg)
 
